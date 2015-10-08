@@ -38,3 +38,20 @@ Use React as a progressive enhancement tool rather than to build the page. Eithe
 
 Potentially an example of this:
 https://github.com/gocardless/splash-pages
+
+## Real projects and production
+
+`jspm` for package management which uses `systemjs` for dependency management behind the scenes.
+
+```
+jspm init
+jspm install react
+jspm install npm:react-dom@@0.14
+
+# bundle for production
+jspm bundle-sfx app/main.js --minify
+```
+
+Example of this: https://github.com/jackfranklin/jspm-es6-react-example
+
+(update repo from upstream)

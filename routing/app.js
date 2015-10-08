@@ -1,14 +1,14 @@
-const { Router, Route, Link } = ReactRouter;
+const { Router, Route, Link, IndexRoute, IndexLink } = ReactRouter;
 
 class App extends React.Component {
   render() {
     return (
       <div>
-        <Link to="/">Home</Link>
-        <Link to="/about">About Me</Link>
-        <Link to="/blog">Blog</Link>
-        <Link to="/repos/jackfranklin">Jack's Github</Link>
-        <Link to="/repos/tomnatt">Tom's Github</Link>
+        <IndexLink activeClassName="active" to="/">Home</IndexLink>
+        <Link activeClassName="active" to="/about">About Me</Link>
+        <Link activeClassName="active" to="/blog">Blog</Link>
+        <Link activeClassName="active" to="/repos/jackfranklin">Jack's Github</Link>
+        <Link activeClassName="active" to="/repos/tomnatt">Tom's Github</Link>
         <p>This is my app</p>
         <hr />
         {this.props.children}
@@ -76,13 +76,14 @@ class Repos extends React.Component {
   }
 }
 
+// there is a specific element for defining an Index
 ReactDOM.render((
   <Router>
-    <Route path="" component={App}>
-      <Route path="/" component={Home} />
-      <Route path="/about" component={About} />
-      <Route path="/blog" component={Blog} />
-      <Route path="/repos/:username" component={Repos} />
+    <Route path="/" component={App}>
+      <IndexRoute component={Home} />
+      <Route path="about" component={About} />
+      <Route path="blog" component={Blog} />
+      <Route path="repos/:username" component={Repos} />
     </Route>
   </Router>
 ), document.getElementById('app'));
