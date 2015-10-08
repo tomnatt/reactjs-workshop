@@ -24,7 +24,7 @@ class Counter extends React.Component {
     return (
       <div>
         <p>Current Count: { this.state.count }</p>
-        <a onClick={ (e) => this.incrementCount(e) }>Increment Me</a>
+        <a onClick={ (event) => this.incrementCount(event) }>Increment Me</a>
       </div>
     );
   }

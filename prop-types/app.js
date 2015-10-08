@@ -1,7 +1,8 @@
 class MyApp extends React.Component {
   render() {
+    // favouriteNumber requires a number so define like this
     return (
-      <Person name="Jack" />
+      <Person name="Jack" favouriteNumber={3} />
     )
   }
 };
@@ -25,7 +26,7 @@ Person.propTypes = {
 };
 
 Person.defaultProps = {
-  location: "London",
+  location: "London"
 }
 
 ReactDOM.render(
