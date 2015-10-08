@@ -33,3 +33,8 @@ Testing React components is really easy and nice to do (quote).
 `fetching-data` requires jquery only for the ajax call - React does not require jquery.
 
 `propTypes` is most useful for maintenance - keeps track of your objects, particularly useful if you haven't worked on the project for a while.
+
+Use React as a progressive enhancement tool rather than to build the page. Either on top of a Node server or on top of static HTML?
+
+Potentially an example of this:
+https://github.com/gocardless/splash-pages

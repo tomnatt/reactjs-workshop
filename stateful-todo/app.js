@@ -21,6 +21,7 @@ class Todo extends React.Component {
   toggleDone() {
     this.setState({ done: !this.state.done });
   }
+
   renderButton() {
     return (
       <button onClick={() => this.toggleDone()}>
@@ -32,7 +33,7 @@ class Todo extends React.Component {
   render() {
     const todo = this.props.todo;
     return (
-      <div>
+      <div className="myClass">
         <p>({ todo.id }): { todo.text } ({ this.state.done === true ? 'DONE' : 'NOT DONE' })</p>
         { this.renderButton() }
       </div>
