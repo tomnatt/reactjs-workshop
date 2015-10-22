@@ -17,7 +17,7 @@ http://ccpc-twn.bath.ac.uk/reactjs-workshop/routing/
 ## What is special here?
 Gives you a virtual DOM which you can modify. It then pushes any changes to the page, only updating as needed.
 
-http://hackflow.com/blog/2015/03/08/boiling-react-down-to-few-lines-in-jquery/
+http://hackflow.com/blog/2015/03/08/boiling-react-down-to-few-lines-in-jquery/  
 4x pics
 
 * can be done with jquery
