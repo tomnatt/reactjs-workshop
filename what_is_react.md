@@ -27,7 +27,7 @@ http://hackflow.com/blog/2015/03/08/boiling-react-down-to-few-lines-in-jquery/
 ## React vs Ember / Angular
 Quick note. Angular and ember are full stack frameworks. React is the view layer only. It would fit much better here as no node dependency. Can sit neatly with both Rails backend and static HTML pages depending on application created.
 
-## do we care?
+## Do we care?
 Scale of our applications.
 
 Biggest javascript app at the moment is:
