@@ -5,10 +5,10 @@
 Written by Facebook
 
 ## What does it do
-http://ccpc-twn.bath.ac.uk/reactjs-workshop/counter/
+http://ccpc-twn.bath.ac.uk/reactjs-workshop/counter/  
 http://ccpc-twn.bath.ac.uk/reactjs-workshop/single-state-todo/
 
-https://github.com/tomnatt/reactjs-workshop/tree/master/counter
+https://github.com/tomnatt/reactjs-workshop/tree/master/counter  
 https://github.com/tomnatt/reactjs-workshop/tree/master/single-state-todo
 
 ## URLs?
@@ -30,7 +30,7 @@ Quick note. Angular and ember are full stack frameworks. React is the view layer
 ## Do we care?
 Scale of our applications.
 
-Biggest javascript app at the moment is:
+Biggest javascript app at the moment is:  
 http://www.bath.ac.uk/contact/?search=basic
 
 Unless you count TopDesk login
